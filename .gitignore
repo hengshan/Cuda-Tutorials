@@ -1,0 +1,45 @@
+# Compiled binaries
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+
+# CUDA compiled files
+*.ptx
+*.cubin
+*.fatbin
+
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# NVIDIA profiling files
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.qdstrm
+*.sqlite
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Debug files
+core
+core.*
